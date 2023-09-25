@@ -5,7 +5,7 @@ We release a new Bayesian neural network library for PyTorch for large-scale dee
 **2)** We need virtually zero code modifications for users (e.g., the backbone network definition codes do not neet to be modified at all). 
 **3)** Our library also allows the pre-trained model weights to serve as a prior mean, which is very useful for performing Bayesian inference with the large-scale foundation models like ViTs that are hard to optimise from the scratch with the downstream data alone. 
 
-### *The technical report for the details of algorithms and implementation can be found in: [arXiv-URL-here].*
+### *The technical report for the details of algorithms and implementation can be found in: [http://arxiv.org/abs/2309.12928](http://arxiv.org/abs/2309.12928)*
 
 ---
 
@@ -124,7 +124,7 @@ If you found this library useful in your research, please cite:
  title = {{BayesDLL: Bayesian Deep Learning Library}},
  author  = {Kim, Minyoung and Hospedales, Timothy},
  year  = {2023},
- URL = {arXiv-URL-here},
+ URL = {arXiv:2309.12928},
  booktitle = {arXiv preprint}
 }
 ```
