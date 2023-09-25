@@ -124,7 +124,7 @@ If you found this library useful in your research, please cite:
  title = {{BayesDLL: Bayesian Deep Learning Library}},
  author  = {Kim, Minyoung and Hospedales, Timothy},
  year  = {2023},
- URL = {arXiv:2309.12928},
- booktitle = {arXiv preprint}
+ URL = {http://arxiv.org/abs/2309.12928},
+ booktitle = {arXiv preprint arXiv:2309.12928}
 }
 ```
