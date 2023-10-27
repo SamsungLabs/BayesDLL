@@ -27,9 +27,37 @@ We release a new Bayesian neural network library for PyTorch for large-scale dee
 
  *In case you want to use other deep neural networks, you may need to install related libraries accordingly (eg, ```huggingface```'s ```transformers``` or Ross Wightman's ```timm```)*
 
+### (Optional) Python package setup (New on 27/10/2023)
+
+For those who would like to install the library as an independent python package (titled ```bayesdll```), we have provided  ```setup.py```. First you go to the code root folder and type the following:
+
+```
+python setup.py install
+```
+
+Then you can use our library in any folder anywhere you like, eg, 
+
+```
+# import inference methods
+from bayesdll import vi, mc_dropout, sgld, la
+
+# or
+
+# Bayesian deep model inference and test evaluation
+from bayesdll.vi import Runner
+runner = Runner(net, net0, args, logger)
+runner.train(train_loader, val_loader, test_loader)
+
+# or
+
+# uncertainty quantification
+import bayesdll.calibration as calibration
+calibration.analyze(...)
+```
 
 
-## Usage examples (Actual codes)
+
+## Usage examples
 
 [Pseudocodes](./figures/pseudocode.html.pdf)
 
